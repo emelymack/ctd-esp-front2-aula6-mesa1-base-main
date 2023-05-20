@@ -19,8 +19,8 @@ const Email = () => {
     // marcar un error en el input.
     // Para esto se puede utilizar en el input de correo electrónico el atributo "required".
     <form>
-      <input type="email" placeholder="Ingresá tu email aquí" />
-      <button type="submit">Enviar</button>
+      <input type="email" placeholder="Ingresá tu email aquí" aria-label="Ingresá tu email aquí" required />
+      <button type="submit" aria-label="botón Enviar">Enviar</button>
     </form>
   );
 };

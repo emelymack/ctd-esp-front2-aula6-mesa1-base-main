@@ -23,14 +23,15 @@ const About = () => {
         <a
           href="https://es.wikipedia.org/wiki/Rick_and_Morty"
           className="buttonAbout"
+          aria-label="Leer más"
         >
-          <img src="download.png" alt="" />
+          <img src="download.png" alt="icono de descarga" />
           <p>Leer más</p>
         </a>
       </div>
 
       <div>
-        <img src="cite.png" alt="" className="imageCite" />
+        <img src="cite.png" alt="Imagen de Rick y Morty. Frase: 'A veces la ciencia es mucho más arte que ciencia, Morty. Mucha gente no entiende eso - Rick'" className="imageCite" />
       </div>
     </div>
   );

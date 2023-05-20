@@ -13,8 +13,8 @@ const Video = () => {
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/vkXfKMhgLQ8?controls=0" //?controls=0 es el responsable de los controles de video.
-        title="YouTube video player"
+        src="https://www.youtube.com/embed/vkXfKMhgLQ8?controls=1" //?controls=0 es el responsable de los controles de video.
+        title="Rick y Morty - Temporada 1, Episodio 6"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
